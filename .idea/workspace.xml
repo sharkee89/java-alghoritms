@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e28469-b1e9-43fd-b3c0-a7c1fe694230" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaAlghoritms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAlghoritms/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAlghoritms/com/stefan/alghoritms/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stefan/alghoritms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stefan/alghoritms/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,53 +17,46 @@
     <session id="780115271">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1274" />
+          <entry key="java" value="2410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1274" />
+          <entry key="JAVA" value="2410" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -83,6 +68,19 @@
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/stefan/alghoritms/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +117,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/stefan/alghoritms/Main.java" />
         <option value="$PROJECT_DIR$/src/com/stefan/alghoritms/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/stefan/alghoritms/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -142,7 +141,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,23 +151,33 @@
               <item name="JavaAlghoritms" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAlghoritms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaAlghoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAlghoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAlghoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAlghoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564780676241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564929685412" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,45 +221,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564775298594</updated>
-      <workItem from="1564775302936" duration="5289000" />
+      <workItem from="1564775302936" duration="5343000" />
+      <workItem from="1564925350068" duration="4929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5289000" />
+    <option name="totallyTimeSpent" value="10272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25198728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3257989" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,21 +269,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/stefan/alghoritms/QuickSort.java</url>
-          <line>7</line>
-          <properties class="com.stefan.alghoritms.QuickSort" method="quickSort">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stefan/alghoritms/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -284,18 +289,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/com/stefan/alghoritms/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
