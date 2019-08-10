@@ -1,4 +1,5 @@
 import com.stefan.alghoritms.ArrayStructure;
+import com.stefan.alghoritms.TheQueue;
 import com.stefan.alghoritms.TheStack;
 import com.stefan.alghoritms.sort.BubbleSort;
 import com.stefan.alghoritms.sort.InsertionSort;
