@@ -1,4 +1,4 @@
-package com.stefan.alghoritms;
+package com.stefan.alghoritms.sort;
 
 public class MergeSort {
 

@@ -1,7 +1,6 @@
-package com.stefan.alghoritms;
+package com.stefan.alghoritms.sort;
 
-import java.util.Arrays;
-import java.util.Random;
+import com.stefan.alghoritms.utils.HelperUtils;
 
 public class QuickSort {
 
@@ -19,17 +18,11 @@ public class QuickSort {
         for (int j = begin; j < end; j++) {
             if (arr[j] <= pivot) {
                 i++;
-                swap(arr, i , j);
+                HelperUtils.swap(arr, i , j);
             }
         }
-        swap(arr, i+1, end);
+        HelperUtils.swap(arr, i+1, end);
         return i+1;
-    }
-
-    private void swap(int[] arr, int index1, int index2) {
-        int temp = arr[index1];
-        arr[index1] = arr[index2];
-        arr[index2] = temp;
     }
 
 }

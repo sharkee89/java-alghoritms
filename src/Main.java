@@ -1,8 +1,7 @@
 import com.stefan.alghoritms.ArrayStructure;
-import com.stefan.alghoritms.MergeSort;
-import com.stefan.alghoritms.QuickSort;
-
-import java.util.Arrays;
+import com.stefan.alghoritms.sort.BubbleSort;
+import com.stefan.alghoritms.sort.InsertionSort;
+import com.stefan.alghoritms.sort.SelectionSort;
 
 public class Main {
 
@@ -15,16 +14,20 @@ public class Main {
 //        System.out.println(Arrays.toString(A));
 
 //        Array Structures
+        BubbleSort bs = new BubbleSort();
+        SelectionSort ss = new SelectionSort();
+        InsertionSort is = new InsertionSort();
         ArrayStructure newArray = new ArrayStructure();
         newArray.generateRandomArray();
         newArray.printArray();
         System.out.println("Value at index 4 is: " + newArray.getValueAtIndex(4));
         System.out.println("Does array contains value 18: " + newArray.doesArrayContainsValue(18));
-        newArray.deleteIndex(4);
-        newArray.printArray();
-        newArray.insertValue(13);
-        newArray.printArray();
         System.out.println("Indexes for value 18: " + newArray.linearSearchForValue(18));
+//        bs.bubbleSort(newArray.getArray(), 10);
+//        ss.selectionSort(newArray.getArray(), 10);
+        is.insertionSort(newArray.getArray(), 10);
+        newArray.printArray();
+        newArray.binarySearchForValue(18);
     }
 
 }

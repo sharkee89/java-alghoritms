@@ -11,6 +11,10 @@ public class ArrayStructure {
         }
     }
 
+    public int[] getArray() {
+        return theArray;
+    }
+
     public void printArray() {
         System.out.println("----------");
         for(int i = 0; i < arraySize; i++){
@@ -65,6 +69,22 @@ public class ArrayStructure {
             foundIndexes = "None";
         }
         return foundIndexes;
+    }
+
+    public void binarySearchForValue(int value) {
+        int lowIndex = 0;
+        int highIndex = arraySize - 1;
+        while (lowIndex <= highIndex) {
+            int middleIndex = (highIndex + lowIndex) / 2;
+            if (theArray[middleIndex] < value) {
+                lowIndex = middleIndex + 1;
+            } else if (theArray[middleIndex] > value) {
+                highIndex = middleIndex - 1;
+            } else {
+                System.out.println("Binary search found value " + value + " at index: " + middleIndex);
+                lowIndex = highIndex + 1;
+            }
+        }
     }
 
 }
